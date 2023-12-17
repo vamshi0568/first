@@ -16,8 +16,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from app.views import jampandu
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('jampandu',jampandu,name='jampandu')
+    path('macha/',macha,name='macha'),
 ]
